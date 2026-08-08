@@ -1,7 +1,7 @@
 import '../models/product_model.dart';
 
 class CartService {
-  // Singleton pattern ile sepetin her sayfada aynı kalmasını sağlıyoruz
+  
   static final CartService _instance = CartService._internal();
   factory CartService() => _instance;
   CartService._internal();
